@@ -1,6 +1,6 @@
 import React from "react";
-import Base from "./Base";
-import Card from "./Card";
+import Base from "../components/Base";
+import Card from "../components/Card";
 import HelloImage from "../images/hello-world.png"
 import TestImage from "../images/test.png";
 

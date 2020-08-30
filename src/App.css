@@ -10,6 +10,24 @@
   bottom: 0;
 }
 
+.navbar{
+  background-color: black;
+  color: green;
+}
+
+.navbar-toggler{
+ 
+  margin-left: auto;
+  margin-right: auto;
+
+}
+#navbarNav{
+
+ 
+  
+  
+}
+
 .title {
   
   font-size: 50px;
@@ -42,9 +60,14 @@ footer {
   background-color: #d6e0f0;
   padding: 10px;
 }
-.icons {
+.footer-icons {
   padding: 10px 15px;
+  color: black;
 }
+.footer-icons:hover {
+  color:#393b44;
+}
+
 .helloPic {
   display: block;
   margin-left: auto;
