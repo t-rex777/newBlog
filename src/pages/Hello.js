@@ -6,7 +6,7 @@ export default function Hello() {
   var height = 250;
   var width = 380;
   const screenWidth = window.innerWidth;
-  if (screenWidth < 376) {
+  if (screenWidth < 422) {
     height = 200;
     width = 280;
   } else if (screenWidth > 1440) {

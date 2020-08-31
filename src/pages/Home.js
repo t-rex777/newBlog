@@ -15,7 +15,7 @@ export default function Home() {
           <Card
             title="Hello World!"
             content="Getting Started."
-            page="./Hello"
+            page="./hello"
             image={HelloImage}
           />
           <Card title="Test 1" content="Some information." image={TestImage}/>

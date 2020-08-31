@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 
-export default function Card({ title, content, page="/",image }) {
+export default function Card({ title, content, page="",image }) {
   return (
     <div className="row space">
       <div className="col">
