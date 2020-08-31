@@ -6,7 +6,7 @@ export default function Card({ title, content, page="/",image }) {
   return (
     <div className="row space">
       <div className="col">
-      <div className="card text-center" style={{width : "20rem" }}>
+      <div className="card text-center" style={{width : "18rem" }}>
       <img className="card-img-top" src={image} alt="Hello World"></img>
 
      

@@ -19,14 +19,10 @@
  
   margin-left: auto;
   margin-right: auto;
+  border : 0;
 
 }
-#navbarNav{
 
- 
-  
-  
-}
 
 .title {
   
@@ -72,8 +68,7 @@ footer {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding: 10px;
-  width: 50%;
-  width: 380px;
-  height: 250px;
+  padding-bottom: 10px;
+  /* width: 380px;
+  height: 250px; */
 }
