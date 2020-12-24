@@ -20,7 +20,7 @@ export default function Navbar() {
         <ul className="navbar-nav w-100 nav-fill mr-5 ml-auto">
           <li className="nav-item active">
             <a className="nav-link" href="/">
-              Home <span class="sr-only">(current)</span>
+              Home <span className="sr-only">(current)</span>
             </a>
           </li>
           <li className="nav-item">

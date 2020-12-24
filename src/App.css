@@ -10,30 +10,25 @@
   bottom: 0;
 }
 
-.navbar{
+.navbar {
   background-color: black;
   color: green;
 }
 
-.navbar-toggler{
- 
+.navbar-toggler {
   margin-left: auto;
   margin-right: auto;
-  border : 0;
-
+  border: 0;
 }
 
-
 .title {
-  
   font-size: 50px;
   color: teal;
   font-family: "Do Hyeon", sans-serif;
-  
 }
 
-.card-title{
-  font-family: 'Londrina Solid', cursive;
+.card-title {
+  font-family: "Londrina Solid", cursive;
 }
 
 .content {
@@ -61,7 +56,7 @@ footer {
   color: black;
 }
 .footer-icons:hover {
-  color:#393b44;
+  color: #393b44;
 }
 
 .helloPic {
@@ -72,5 +67,3 @@ footer {
   /* width: 100%;
   height: auto; */
 }
-
-
