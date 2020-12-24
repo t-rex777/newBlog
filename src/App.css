@@ -67,3 +67,9 @@ footer {
   /* width: 100%;
   height: auto; */
 }
+
+@media screen and (max-width:375px){
+  .card-title{
+    font-size: 1.8rem;
+  }
+}

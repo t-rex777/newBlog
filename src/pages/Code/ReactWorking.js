@@ -2,6 +2,8 @@ import React from "react";
 import Base from "./../../components/Base";
 import logo from "../../images/reactLogo.svg";
 import MVC from "../../images/MVC.jpg";
+
+
 function ReactWorking() {
   return (
     <Base>
@@ -10,7 +12,7 @@ function ReactWorking() {
           What happens in React.js internally?
         </h1>
         <img
-          className="helloPic "
+          className="helloPic mb-3"
           src={logo}
           alt="react logo"
           style={{ width: "50%" }}
@@ -66,7 +68,7 @@ function ReactWorking() {
               </li>
             </ul>
           </p>
-          <img className="helloPic" src={MVC} alt="MVC" />
+          <img className="helloPic img-fluid mb-4" src={MVC} alt="MVC" />
 
           <h2 className="card-title">Virtual DOM</h2>
           <p>
@@ -112,7 +114,7 @@ function ReactWorking() {
             Reflow is the process that the browser performs to re-calculate the
             positions, geometry and colours on the page.
           </p>
-          <h2 className="card-title">shouldComponentUpdate()</h2>
+          <h2 className="card-title" >shouldComponentUpdate()</h2>
           <p>
             It is a React lifecycle for optimization of the React application.
             It returns boolean values for any changes in the components.
