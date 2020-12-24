@@ -96,8 +96,9 @@ export default function Post_1() {
           <p>
             We should always eat more complex carbohydrates and minimise eating
             simple carbohydrates so that, stomach will stay filled for longer period.
+            In this way, we could stay away from binge eating.</p>
             
-             Also, we should eat enough proteins, at least
+             <p>Also, we should eat enough proteins, at least
             60 grams per day. Drinking plenty of water is highly recommended, at
             least 3.5L per day.
           </p>
