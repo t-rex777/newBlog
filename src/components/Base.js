@@ -11,7 +11,7 @@ export default function Base({ children }) {
       <div className="blog">{children}</div>
       <footer className="text-center">
         <p>Made By Manish Kumar Sahu </p>
-        <p style={{ marginBottom: "0px" }}>@2020 </p>
+        <p style={{ marginBottom: "0px" }}>@2021 </p>
         
         <a href="https://github.com/t-rex777">
           <i className="fa-2x fab fa-github footer-icons "></i>

@@ -5,6 +5,7 @@ import HelloImage from "../images/hello-world.png";
 import TestImage from "../images/test.png";
 import ManEating from "../images/eating.jpg";
 import Reactlogo from "../images/reactLogo.svg";
+import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
@@ -12,6 +13,12 @@ export default function Home() {
       <Base>
         <h1 className="text-center title">Blog posts</h1>
         <div className="container-flex">
+          <Card
+            title="Authentication and Authorization"
+            content="This is authentication using Crypto from nodeJS and authorization using JSON-web-token by a method of accessToken and refreshToken."
+            differentSiteLink="https://dev.to/trex777/authentication-and-authorization-using-accesstokens-refreshtokens-part-1-1ic8"
+            image="https://d117h1jjiq768j.cloudfront.net/images/default-source/blogs/2018/2018-03/data-security-basics-authentication-authorization-encryption-and-auditing_870x450.jpg?sfvrsn=9f583dca_3"
+          />
           <Card
             title="How React Works"
             content="A brief disscussion about React, and how it works internally, its algorithm and little bit about performance."
